@@ -14,6 +14,10 @@ export default function SocialMedia() {
       label: "Instagram - @muhammad_bobby_o",
       route: "https://instagram.com/muhammad_bobby_o",
     },
+    {
+      label: "CV - Muhammad Bobby Oktaviano",
+      route: "https://www.cake.me/resumes/muhammad-bobby",
+    },
   ];
 
   return (
@@ -25,6 +29,7 @@ export default function SocialMedia() {
           <Link
             href={item.route}
             key={index}
+            target="_blank"
             className="relative inline-flex items-center justify-center py-0.5 overflow-hidden text-sm font-medium text-heading rounded-base group focus:outline-none border-2 even:border-fuchsia-500 odd:border-gray-100 rounded-full"
           >
             <span
