@@ -15,15 +15,16 @@ export default function AboutMe() {
           <h1 className="text-5xl font-bold">Perkenalkan, </h1>
           <hr className="border-5 border-fuchsia-600 my-2 w-1/2 rounded-full" />
           <p className="font-medium mt-5">
-            Saya adalah seorang Web Developer yang fokus di pengembangan front-end menggunakan Laravel, Next.js, dan Tailwind CSS. Selama masa kuliah dan magang, saya telah mengerjakan lebih dari 20 proyek berbasis website — mulai dari
-            landing page, dashboard, hingga aplikasi berbasis sistem manajemen.
+            Saya adalah fresh graduate Web Developer dengan fokus utama pada pengembangan front-end, khususnya menggunakan React.js, Next.js, dan Tailwind CSS. Saya terbiasa membangun antarmuka yang responsif, modern, dan berorientasi pada
+            pengalaman pengguna. Selain front-end, saya juga terbiasa menangani pengembangan full-stack, terutama menggunakan Laravel untuk kebutuhan backend dan integrasi API.
           </p>
           <p className="font-medium mt-5">
-            Saya adalah seorang Web Developer yang fokus di pengembangan front-end menggunakan Laravel, Next.js, dan Tailwind CSS. Selama masa kuliah dan magang, saya telah mengerjakan lebih dari 20 proyek berbasis website — mulai dari
-            landing page, dashboard, hingga aplikasi berbasis sistem manajemen.
+            Selama masa perkuliahan, magang, dan proyek mandiri, saya telah mengerjakan lebih dari 20 proyek nyata berbasis website dan android, mulai dari landing page hingga dashboard dan sistem manajemen. Saya terbiasa bekerja dalam tim,
+            menyusun dokumentasi, serta mengelola pengembangan proyek dari perencanaan hingga deployment. Bagi saya, membangun website bukan hanya soal teknis, tetapi tentang menciptakan solusi digital yang efektif, mudah digunakan, dan
+            berdampak nyata.
           </p>
 
-          {/* skill dan interest */}
+          {/* sosial media*/}
           <SocialMedia />
         </div>
       </div>

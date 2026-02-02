@@ -1,6 +1,32 @@
 "use client";
 
-import { SiLaravel, SiPhp, SiMysql, SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiGit, SiGithub, SiPostman, SiCanva, SiFigma } from "react-icons/si";
+import {
+  SiLaravel,
+  SiPhp,
+  SiMysql,
+  SiNextdotjs,
+  SiReact,
+  SiTailwindcss,
+  SiTypescript,
+  SiGit,
+  SiGithub,
+  SiPostman,
+  SiCanva,
+  SiFigma,
+  SiHtml5,
+  SiC,
+  SiCss3,
+  SiJavascript,
+  SiNodedotjs,
+  SiComposer,
+  SiCodeigniter,
+  SiFirebase,
+  SiEslint,
+  SiKotlin,
+  SiVite,
+  SiDiscord,
+  SiAndroidstudio,
+} from "react-icons/si";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
 export default function SkillsSection() {
@@ -26,13 +52,23 @@ export default function SkillsSection() {
           <div className="mt-10">
             <h3 className="text-2xl font-semibold mb-4">Web Development</h3>
             <div className="flex flex-wrap items-center gap-5 text-4xl">
+              <SiHtml5 className="text-orange-500" />
+              <SiCss3 className="text-blue-500" />
+              <SiJavascript className="text-yellow-400" />
+              <SiNodedotjs className="text-green-500" />
+              <SiComposer />
               <SiLaravel className="text-red-500" />
+              <SiCodeigniter className="text-red-500" />
               <SiPhp className="text-indigo-400" />
               <SiMysql className="text-blue-400" />
+              <SiFirebase className="text-yellow-400" />
               <SiNextdotjs />
               <SiReact className="text-cyan-400" />
-              <SiTailwindcss className="text-sky-400" />
               <SiTypescript className="text-blue-500" />
+              <SiEslint className="text-red-500" />
+              <SiKotlin className="text-blue-500" />
+              <SiTailwindcss className="text-sky-400" />
+              <SiVite className="text-pink-500" />
             </div>
           </div>
 
@@ -43,7 +79,9 @@ export default function SkillsSection() {
               <BiLogoVisualStudio className="text-blue-400" />
               <SiGit className="text-orange-500" />
               <SiGithub />
+              <SiDiscord className="text-blue-500" />
               <SiPostman className="text-orange-400" />
+              <SiAndroidstudio className="text-yellow-500" />
             </div>
           </div>
 

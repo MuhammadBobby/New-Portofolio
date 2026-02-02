@@ -14,7 +14,7 @@ export const contacts = [
     id: 2,
     title: "Email & Website",
     icon: "MdOutlineMailOutline",
-    lines: ["m.bobbyoktaviano@gmail.com", "https://muhammadbobby.github.io/portfolio-muhammad-bobby"],
+    lines: ["m.bobbyoktaviano@gmail.com", "https://portofolio-muhammad-bobby.vercel.app"],
   },
   {
     id: 3,

@@ -4,7 +4,7 @@ export default function SocialMedia() {
   const skill = [
     {
       label: "Linkedin - Muhammad Bobby Oktaviano",
-      route: "www.linkedin.com/in/MuhammadBobby30",
+      route: "https://www.linkedin.com/in/MuhammadBobby30",
     },
     {
       label: "Github - Muhammad Bobby",
@@ -18,7 +18,7 @@ export default function SocialMedia() {
 
   return (
     <div className="mt-10">
-      <h1 className="text-2xl font-extrabold tracking-wide">Skill & Ketertarikan</h1>
+      <h1 className="text-2xl font-extrabold tracking-wide">Sosial Media</h1>
 
       <div className="flex flex-wrap gap-3 mt-4">
         {skill.map((item, index) => (

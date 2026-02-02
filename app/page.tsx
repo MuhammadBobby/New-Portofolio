@@ -3,6 +3,7 @@ import ContactSection from "@/components/home/Contact";
 import ExperienceSection from "@/components/home/Experience";
 import HeaderHome from "@/components/home/Header";
 import ProjectSelected from "@/components/home/Project";
+import SertificateSelection from "@/components/home/Sertificate";
 import SkillsSection from "@/components/home/SkillSection";
 import Marquee from "@/components/Marquee";
 
@@ -30,7 +31,7 @@ export default function Home() {
       <SkillsSection />
 
       {/* Project */}
-      <Marquee text="Project" />
+      <Marquee text="Projects" />
       <ProjectSelected />
 
       {/* line */}
@@ -42,6 +43,10 @@ export default function Home() {
 
       {/* experience */}
       <ExperienceSection />
+
+      {/* sertificate */}
+      <Marquee text="Certificates" />
+      <SertificateSelection />
 
       {/* line */}
       <div className="flex items-center text-white px-5 md:px-20 my-5">
