@@ -1,13 +1,10 @@
-import BubbleBackground from "@/components/BubbleBackground";
 import AboutMe from "@/components/home/AboutMe";
 import ContactSection from "@/components/home/Contact";
 import ExperienceSection from "@/components/home/Experience";
 import HeaderHome from "@/components/home/Header";
 import ProjectSelected from "@/components/home/Project";
 import SkillsSection from "@/components/home/SkillSection";
-import SocialMedia from "@/components/home/SocialMedia";
 import Marquee from "@/components/Marquee";
-import Image from "next/image";
 
 export default function Home() {
   const now = new Date();
